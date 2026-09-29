@@ -1,0 +1,24 @@
+name: Engineering investigation
+description: Propose a bounded question with a verification method.
+title: "[Investigation] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and why it matters
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Acceptance criterion and evidence
+      description: State units, reference method, and what would disprove the assumption.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Resources, unknowns, and supervision
+      description: Distinguish what is available from what is proposed.
+    validations:
+      required: true
